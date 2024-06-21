@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color: #1F2937;
+}
+
+.info {
+    background-color: wheat;
+}
+
+.quote {
+    background-color: gray;
+}
+
+.bottom {
+    background-color: wheat;
+}
+
+.top,
+.info,
+.quote,
+.bottom {
+    padding: 0 10%;
+}
+
+.top-bar {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.top-bar li {
+    margin-top: 16px;
+}
+
+#logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Hero main */
+
+.hero {
+    display: flex;
+    margin: 48px 0;
+    justify-content: space-between;
+    height: 12.5em;
+}
+
+.hero-img {
+    max-height: 100%;
+}
+
+.hero-heading {
+    font-size:48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-sub-heading {
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    border-radius: 8px;
+    padding: 4px 32px;
+    background-color: #3882F6;
+}
