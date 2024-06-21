@@ -83,3 +83,15 @@ body {
     padding: 4px 32px;
     background-color: #3882F6;
 }
+
+/* info */
+
+.info-heading {
+    text-align: center;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
